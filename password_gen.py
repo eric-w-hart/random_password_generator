@@ -62,12 +62,12 @@ def informationAboutPassword(a):
 #    print("Your password has a upper case letter ={}".format(listupperLetter))
 #    print ('- - -'*5)
     
-def funHello():
+def randHello():
     print('Hello, friend :)')
     name=input('What is your name ? ')
     print('{} ,nice to meet you '.format(name))
     
-funHello()
+randHello()
 guess=input('How strong do you want the password weak/medium/strong : ')
 yourPassword=guessPassw(guess)
 question= input('Do you want your password on screen (yes/no)?')
